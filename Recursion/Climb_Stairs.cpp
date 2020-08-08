@@ -1,4 +1,6 @@
-//Time Complexity - O(2^N) 
+//Question:- (https://leetcode.com/explore/featured/card/recursion-i/255/recursion-memoization/1662/)
+
+//Time Complexity - O(2^N), Space Complexity O(1)(Ignoring internal stack memory for function calls)
 class Solution
 {
 public:
@@ -7,11 +9,12 @@ public:
         if(n <= 2)
         return n;
         
+        //Either climb 1 or 2 steps
         return climbStairs(n-1) + climStairs(n-2);
     }
 };
 
-//Using DP Time Complexity - O(N) 
+//Using DP Time Complexity - O(N), Space Complexity O(1)
 class Solution
 {
 public:
