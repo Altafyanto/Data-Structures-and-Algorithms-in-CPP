@@ -1,4 +1,4 @@
- # Data Structure And Algorithms In CPP
+ # Data Structures And Algorithms In CPP
 
 This repository contains many popular algorithms and data structures.
 
