@@ -19,3 +19,14 @@ public:
         return nextNode;
     }
 };
+
+// second approach...
+class Solution {
+public:
+    ListNode* swapPairs(ListNode* head) {
+        if(!head || !head->next) return head;
+        swap(head->val , head->next->val);
+        head->next->next = swapPairs(head->next->next);
+        return head;
+    }
+};
