@@ -34,7 +34,7 @@ public:
     }
     vector<TreeNode*> generateTrees(int n)
     {
-        //if n is 0 then no tree can be genegrated
+        //if n is 0 then no tree can be generated.
         if(n == 0)
             return {};
         
