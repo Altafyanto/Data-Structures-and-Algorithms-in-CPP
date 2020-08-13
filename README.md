@@ -18,4 +18,4 @@ An algorithm is an unambiguous specification of how to solve a class of problems
 
 ### Next Topic
 
--Sorting
+- Sorting
