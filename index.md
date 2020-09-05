@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+This repository contains some of the important interview questions on important Data structures and Algorithms topics.
 
-You can use the [editor on GitHub](https://github.com/Vishal-raj-1/Data-Structures-and-Algorithms-in-CPP/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Each algorithm and data structure has its own separate README with related explanations and links for further reading (including ones to YouTube videos).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Data Structures
+A data structure is a particular way of organizing and storing data in a computer so that it can be accessed and modified efficiently. More precisely, a data structure is a collection of data values, the relationships among them, and the functions or operations that can be applied to the data.
 
-### Markdown
+Topics Covered(Till Now)
+Heap
+Stack
+Algorithms
+An algorithm is an unambiguous specification of how to solve a class of problems. It is a set of rules that precisely define a sequence of operations.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Vishal-raj-1/Data-Structures-and-Algorithms-in-CPP/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Topics Covered(Till Now)
+Recursion
+Binary Search
+Dynamic Programming
