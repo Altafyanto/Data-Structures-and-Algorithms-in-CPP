@@ -13,13 +13,13 @@ int maxGold(int n, int m)
     {
         for (int row = 0; row < n; row++)
         {
-            //we can go right iff we are not at the last column
+            //we can go right if we are not at the last column
             int right = (col == m-1) ? 0 : table[row][col+1];
 
-            //we can go right_up iff we are not at the last column or first row
+            //we can go right_up if we are not at the last column or first row
             int right_up = (row == 0 || col == m-1) ? 0 : table[row-1][col+1];
 
-            //we can go right_down iff we are not at the last column or last row
+            //we can go right_down if we are not at the last column or last row
             int right_down = (row == n-1 || col == m-1) ? 0 : table[row+1][col+1];
 
             //we will take the max from right, right_up, right_down
