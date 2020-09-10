@@ -27,14 +27,18 @@ int main()
         {
             for (int j = 0; j <= n; j++)
             {
+                // if we are not given those three integers or if our total length is 0 then there will be not cut segments.
                 if (i == 0 || j == 0)
                     t[i][j] = 0;
 
+                //if any of the given length is greater than the given total length then we can't make a piece of that length so our cuts will be equal to the cuts we had after
+                // cutting into length y which was less than x.
                 else if (a[i] > j)
                     t[i][j] = t[i - 1][j];
 
                 else
                 {
+                    
                     if (t[i][j - a[i]] == 0 && j - a[i] != 0 && t[i - 1][j] == 0)
                         t[i][j] = 0;
                     else
