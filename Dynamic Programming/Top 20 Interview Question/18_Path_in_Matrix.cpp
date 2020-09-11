@@ -30,7 +30,7 @@ int main()
 	{
 	    int n;
 	    cin >> n;
-	    int **matrix = new int*[n]; // dynamically allocated matrix.
+	    int **matrix = new int*[n]; // dynamically created matrix.
 	    for(int i = 0; i < n; i++)
 	    matrix[i] = new int[n];
 	    
