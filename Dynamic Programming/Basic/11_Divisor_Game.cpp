@@ -2,7 +2,7 @@
 
 class Solution {
 public:
-    bool divisorGame(int n) {
+    bool divisorGame(int N) {
         bool dp[N+1];
         
         // initialising DP matrix with all falses.
