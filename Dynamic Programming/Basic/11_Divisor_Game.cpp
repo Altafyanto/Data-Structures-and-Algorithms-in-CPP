@@ -13,7 +13,7 @@ public:
         {
             bool temp = false;
             
-            // We only need to check upto i/2 because if bob lose upto i/2 then it will loose the game.
+            // We only need to check upto i/2 because if bob lose upto i/2 then he will loose the game.
             for(int j=1;j<=i/2;j++)
             {
                 // if after choosing j upto i/2 it is divisible by j and and after replacing the value with i-j DP is giving false 
