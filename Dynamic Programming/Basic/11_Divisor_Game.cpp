@@ -5,10 +5,10 @@ public:
     bool divisorGame(int n) {
         bool dp[N+1];
         
-        // initialising DP matrix with all zeroes.
+        // initialising DP matrix with all falses.
         memset(dp,false,sizeof(dp));
         
-        //We dont need to check for n<2 as alice is starting first then in these cases only alice will win.
+        // We don't need to check for n < 2 as alice is starting first then in these cases only alice will win.
         for(int i=2;i<=N;i++)
         {
             bool temp = false;
