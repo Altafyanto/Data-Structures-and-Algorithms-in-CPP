@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 
-//Here in this question long is not working, so we have install boost library for Big Integer type like int_256
+//Here in this question long is not working, so we have installed boost library for Big Integer type like int_256
 long nthCatalanNumber(int n)
 {
     long catalan[n + 1];
