@@ -15,7 +15,7 @@ public:
         int result = nums[0], previous = nums[0];
         for (int i = 1; i < n; i++)
         {
-            // Adding previpous result iff it is positive
+            // Adding previous result if it is positive
             previous = nums[i] + (previous > 0 ? previous : 0);
             result = max(result, previous);
         }
