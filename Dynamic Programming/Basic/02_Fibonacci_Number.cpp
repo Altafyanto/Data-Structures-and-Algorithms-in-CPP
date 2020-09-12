@@ -2,7 +2,7 @@
 
 // Time Complexity: O(n),  Auxiliary Space: O(n)
 
-// Recursive working formulae : fib[n] = fib[n - 1] + fib[n - 2]
+// Recursive working formula : fib[n] = fib[n - 1] + fib[n - 2]
 
 #include <iostream>
 using namespace std;
