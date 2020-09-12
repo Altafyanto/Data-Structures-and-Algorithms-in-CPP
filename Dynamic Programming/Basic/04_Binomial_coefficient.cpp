@@ -12,7 +12,7 @@ int binomialCoefficient(int n, int r)
 
     for (int i = 0; i <= n; i++)
     {
-        for (int j = 0; j <= min(i, r); j++) //min(i, r) so that it doesnt go out of bound
+        for (int j = 0; j <= min(i, r); j++) //min(i, r) so that it will not go out of bound
         {
             if (j == 0 || j == i)
                 coeff[i][j] = 1;
