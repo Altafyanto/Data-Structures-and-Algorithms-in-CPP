@@ -15,6 +15,7 @@ An algorithm is an unambiguous specification of how to solve a class of problems
 ### Topics Covered(Till Now)
 
 - Recursion
+- Dynamic Programming
 
 ### Next Topic
 
